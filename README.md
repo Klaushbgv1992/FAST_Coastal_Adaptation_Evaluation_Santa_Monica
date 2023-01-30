@@ -12,6 +12,7 @@ Resources used should be edited according to relative locations as well as the n
 -> Flood depth damages Lookuptables might get updated (FEMA: Hazus flood model methodology). If so, replace them in the Lookuptables folder. 
 -> User-provided census data that contain demographic information. Place it in the Census folder.
 -> Digital Elevation Model (DEM) of the study area. Place it in the DEM folder.
+->Use runner.py to run the tool. Additional scripts in the extra_scripts folder can be utlized to set up file and model formating. If using DELFT3D feel free to make use of dat2csv.m and export_delf3d_wlbl.m to extract flood water level to cvs files (used as input for runner.py).   
 
 PLEASE NOTE THAT THE THIS TOOL WAS DEVELOPED WITH FLOOD MODELING AND DAMAGE ESTIMATES RELEVANT TO THE USA. Flood depth data and flood depth damage estimations would vary for areas outside of the USA.
 
